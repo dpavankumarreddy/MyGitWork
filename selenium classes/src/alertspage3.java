@@ -1,0 +1,26 @@
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class alertspage3 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+			System.setProperty("webdriver.chrome.driver","C:\\selenium drivers\\chromedriver.exe" );
+			ChromeDriver driver=new ChromeDriver();
+			driver.manage().window().maximize();
+			  driver.get("https://www.hyrtutorials.com/p/alertsdemo.html");
+		       //simplealert
+		     driver.findElement(By.id("alertBox")).click(); 
+		     
+		       Alert simplealert= driver.switchTo().alert();
+		      System.out.println(simplealert.getText());
+		      Thread.sleep(2000);
+		       simplealert.accept();
+		      Thread.sleep(1000);
+		     driver.quit();
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.examples;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class JavaExamples {
+	
+	public static void main(String[] args) {
+		
+		Date d=new Date();
+		
+		SimpleDateFormat sdf=new SimpleDateFormat("m//dd//yyyy");
+		System.out.println(sdf.format(d));
+		System.out.println(d.toString());
+         
+	
+		
+		
+		
+	}
+
+}

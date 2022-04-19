@@ -1,0 +1,16 @@
+package com.examples;
+
+public class JavaExamples {
+	
+	public static void main(String[] args) {
+		
+		String Name = "Mounika";
+		
+		boolean value = Name.contains("o");
+		System.out.println(value);
+		
+		
+		
+	}
+
+}

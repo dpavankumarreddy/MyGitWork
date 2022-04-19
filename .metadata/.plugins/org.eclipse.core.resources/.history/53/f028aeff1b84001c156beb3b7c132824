@@ -1,0 +1,14 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>31.0.1-jre</version>
+		</dependency>
+		
+	}
+}
+

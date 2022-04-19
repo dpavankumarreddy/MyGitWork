@@ -1,0 +1,10 @@
+package com.test.com;
+
+public class day1 {
+
+	public void Demo()
+	{
+		System.out.println("Hello world");
+	}
+
+}

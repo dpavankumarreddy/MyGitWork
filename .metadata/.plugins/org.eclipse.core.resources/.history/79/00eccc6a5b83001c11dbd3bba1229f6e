@@ -1,0 +1,23 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class BoxDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver","C:\\selenium drivers\\chromedriver.exe" );
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("file:///C:/selenium drivers/new.html");
+		Select dropdown1=new Select(driver.findElement(By.name("country")));
+		dropdown1.selectByIndex(2);
+		
+	
+		
+		
+
+}
+}

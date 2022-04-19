@@ -1,0 +1,18 @@
+package com.examples;
+
+public class JavaExamples {
+	
+	public static void main(String[] args) {
+		
+		String name = "Mounika";
+		
+		//String[] splitedString=name.split("Mounika");
+		
+         
+		System.out.println(name.charAt(1));
+		
+		
+		
+	}
+
+}

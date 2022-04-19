@@ -1,0 +1,13 @@
+package seleniumclases;
+
+
+public class browerdemo {
+
+	public static void main(String[] args) {
+	   //firebox
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\selenium drivers\\chromedriver.exe");
+		webDriver  driver=new chromedriver();
+		
+	}
+
+}
